@@ -11,4 +11,4 @@ Can't call $ on element with selector "#missing-parent" because element wasn't f
 1. `npm install`
 2. `npx wdio`
 
-The first test will pass while the second will not. Both child elements exist on the page, but in the second test, the parent element does not.
+The first test will pass while the second will not. Both child elements exist on the page (if called without the parent), but in the second test, the parent element does not.
