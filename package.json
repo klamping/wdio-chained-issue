@@ -1,0 +1,23 @@
+{
+  "name": "wdio-chained-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.12.4"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.12.4",
+    "@wdio/mocha-framework": "^5.12.1",
+    "@wdio/spec-reporter": "^5.12.1",
+    "@wdio/sync": "^5.12.3",
+    "chromedriver": "^76.0.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
