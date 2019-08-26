@@ -51,4 +51,13 @@ describe('Chained Selector Issue', function () {
             console.log('Child does not exist!');
         }
     })
+
+    it('should work if you use "parent.selector"', function () {
+        browser.url('./');
+
+        const parent = $('#missing-parent');
+        const doesChildExist = $(`${parent.selector} .heading`).isExisting();
+
+        console.log('Child exists?', doesChildExist);
+    })
 })
